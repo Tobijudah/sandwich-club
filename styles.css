@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ffffff;
+	color: #000;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h3 {
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 20px;
+	background: orange;
+	color: white;
+	border: 0;
+	font-size: 12px;
+	text-align: center;
+	height: 40px;
+}
+
+/* Nav Bar */
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 20px 0;
+}
+
+.main-nav ul {
+	display: flex;
+	list-style: none;
+}
+
+.main-nav ul li {
+	margin-right: 15px;
+}
+
+.main-nav ul li:first-child a {
+	color: orange;
+	padding-top: 18px;
+	border-top: orange 3px solid;
+}
+
+/* Showcase */
+.showcase {
+	height: 400px;
+	background-image: linear-gradient(
+			to left,
+			rgba(255, 255, 255, 0),
+			rgba(255, 255, 255, 1) 99%
+		),
+		url("img/sandwich.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 55px;
+}
+
+.content {
+	width: 45%;
+	height: 400px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.content .btn {
+	width: 145px;
+}
+
+.content h2 {
+	font-size: 50px;
+	line-height: 45px;
+	margin-bottom: 15px;
+}
+
+.content p {
+	margin-bottom: 15px;
+}
+
+.best {
+	color: orange;
+}
+
+/* cards header */
+
+.cards-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 45px;
+}
+
+/* cards */
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	margin-bottom: 40px;
+}
+
+.cards img {
+	margin-bottom: 20px;
+}
+
+.cards h3 {
+	margin-bottom: 5px;
+}
+
+/* Bulletin */
+.bulletin {
+	display: flex;
+	margin: 100px auto;
+}
+
+.bulletin img {
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 5%;
+}
+
+.bulletin .image {
+	flex: 4;
+}
+
+.bulletin .cater {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	flex: 3;
+	margin-right: 10px;
+}
+
+.bulletin .cater p {
+	font-weight: normal;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+/* Instagram */
+
+.instagram{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.instagram .gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	width: 85%;
+}
