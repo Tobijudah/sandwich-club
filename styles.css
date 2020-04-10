@@ -42,6 +42,7 @@ img {
 	font-size: 12px;
 	text-align: center;
 	height: 40px;
+	border-radius: 0.25rem;
 }
 
 /* Nav Bar */
@@ -51,7 +52,7 @@ img {
 	justify-content: space-between;
 	align-items: center;
 	height: 60px;
-	padding: 20px 0;
+	padding: 45px 0;
 }
 
 .main-nav ul {
@@ -65,13 +66,13 @@ img {
 
 .main-nav ul li:first-child a {
 	color: orange;
-	padding-top: 18px;
+	padding-top: 33px;
 	border-top: orange 3px solid;
 }
 
 /* Showcase */
 .showcase {
-	height: 400px;
+	height: 563px;
 	background-image: linear-gradient(
 			to left,
 			rgba(255, 255, 255, 0),
@@ -81,12 +82,12 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 55px;
+	margin-bottom: 60px;
 }
 
 .content {
 	width: 45%;
-	height: 400px;
+	height: 563px;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -98,13 +99,13 @@ img {
 }
 
 .content h2 {
-	font-size: 50px;
-	line-height: 45px;
-	margin-bottom: 15px;
+	font-size: 53px;
+	line-height: 60px;
+	margin-bottom: 20px;
 }
 
 .content p {
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .best {
@@ -139,7 +140,7 @@ img {
 /* Bulletin */
 .bulletin {
 	display: flex;
-	margin: 100px auto;
+	margin: 120px auto;
 }
 
 .bulletin img {
@@ -172,7 +173,7 @@ img {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-bottom: 40px;
+   margin-bottom: 120px;
 }
 
 .instagram .gallery {
@@ -180,4 +181,58 @@ img {
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px;
 	width: 85%;
+}
+
+/* Subscribe */
+.subscribe {
+	margin-bottom: 120px;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.email {
+	display: flex;
+	justify-content: space-between;
+}
+
+.email input {
+	width: 90%;
+	margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+	background: orange;
+}
+
+.footer .nav{
+	padding-top: 35px;
+	width: 45%;
+	margin: 0 auto;
+}
+
+.footer .nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.footer .social {
+	padding-top: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer .text {
+	padding-top: 35px;
+}
+
+.fa-twitter {
+	margin: 0 15px;
 }
