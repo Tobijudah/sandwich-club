@@ -19,8 +19,12 @@ a {
 }
 
 h3 {
-	font-size: 42px;
+	font-size: 45px;
 	margin-bottom: 10px;
+}
+
+p {
+	font-weight: 100;
 }
 
 img {
@@ -39,7 +43,7 @@ img {
 	background: orange;
 	color: white;
 	border: 0;
-	font-size: 12px;
+	font-size: 13px;
 	text-align: center;
 	height: 40px;
 	border-radius: 0.25rem;
@@ -95,7 +99,7 @@ img {
 }
 
 .content .btn {
-	width: 145px;
+	width: 153px;
 }
 
 .content h2 {
@@ -106,6 +110,7 @@ img {
 
 .content p {
 	margin-bottom: 30px;
+	font-size: 22px;
 }
 
 .best {
@@ -121,6 +126,9 @@ img {
 	margin-bottom: 45px;
 }
 
+.cards-header p {
+	font-size: 22px;
+}
 /* cards */
 .cards {
 	display: grid;
@@ -133,8 +141,9 @@ img {
 	margin-bottom: 20px;
 }
 
-.cards h3 {
+.cards h4, .cards p{
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 /* Bulletin */
@@ -144,12 +153,13 @@ img {
 }
 
 .bulletin img {
-	border-top-left-radius: 50%;
+	border-top-left-radius: 45%;
 	border-bottom-left-radius: 5%;
+	height: 543px;
 }
 
 .bulletin .image {
-	flex: 4;
+	flex: 6;
 }
 
 .bulletin .cater {
@@ -157,14 +167,24 @@ img {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	flex: 3;
+	flex: 4;
 	margin-right: 10px;
 }
 
+.bulletin h4 {
+	margin-top: 12px;
+	margin-bottom: 27px;
+	font-size: 27px;
+	font-weight: 200;
+}
+
 .bulletin .cater p {
-	font-weight: normal;
-	font-size: 14px;
-	margin: 15px 0;
+	font-size: 16px;
+	margin-bottom: 22px;
+}
+
+.bulletin .cater p:last-of-type {
+	margin-bottom: 30px;
 }
 
 /* Instagram */
